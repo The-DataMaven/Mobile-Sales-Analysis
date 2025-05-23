@@ -40,13 +40,15 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 ### Data Structure & Initial Checks
 The company's main database structure, as seen below, consists of one facts table, facts_sales, and 2 dimension tables: dim_products and dim_location, with a total row count of 367 records. A description of each table is as follows:
 
-Table 1:
-Table 2:
-Table 3:
+Facts_Sales: ![Mobile-Sales-Analysis](Facts_Sales.JPG)
+Dim_Products: ![Mobile-Sales-Analysis](dim_products.JPG)
+Dim_Locaton: ![Mobile-Sales-Analysis](dim_locations.JPG)
 
 I created two more dimension tables: dim_date, for time series analysis, and dim_customers.
 
-Table 4:
-Table 5:
-[Entity Relationship Diagram here]
+Dim_Date: ![Mobile-Sales-Analysis](dim_date.JPG)
+Dim_Customers: ![Mobile-Sales-Analysis](dim_customers.JPG)
+
+### Entity Relationship Diagram
+![Mobile-Sales-Analysis](dim_locations.JPG)
 
