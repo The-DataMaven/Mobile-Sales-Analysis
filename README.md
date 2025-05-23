@@ -50,5 +50,5 @@ Dim_Date: ![Mobile-Sales-Analysis](dim_date.JPG)
 Dim_Customers: ![Mobile-Sales-Analysis](dim_customers.JPG)
 
 ### Entity Relationship Diagram
-![Mobile-Sales-Analysis](dim_locations.JPG)
+![Mobile-Sales-Analysis](Entity Relationship Diagram.JPG)
 
