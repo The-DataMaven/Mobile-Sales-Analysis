@@ -50,5 +50,67 @@ Dim_Date: ![Mobile-Sales-Analysis](dim_date.JPG)
 Dim_Customers: ![Mobile-Sales-Analysis](dim_customers.JPG)
 
 ### Entity Relationship Diagram
-![Mobile-Sales-Analysis](Entity Relationship Diagram.JPG)
+![Mobile-Sales-Analysis](Entity_Relationship_Diagram.JPG)
 
+## Executive Summary
+### Overview of Findings
+In 2024, mobile sales were driven by strong demand for premium Android devices, with a notable revenue surge in February across key urban markets. Younger age groups, particularly Millennials and Gen Z, showed distinct brand preferences and higher spending power, influencing both product and channel strategies. Online sales outperformed all other channels, highlighting a shift in customer behavior and the growing importance of digital engagement.
+
+**Sales Dashboard:** ![Mobile-Sales-Analysis](sales_dashboard.jpg)
+**Products Dashboard:** ![Mobile-Sales-Analysis](products_dashboard.jpg)
+**Customers Dashboard:** ![Mobile-Sales-Analysis](customers_dashboard.jpg)
+
+### Insights Deep Dive
+## Sales Performance:
+🔍 **Premium Sales Surge in February — Revenue Held Strong Despite Lower Units**
+In **February 2024**, the business saw a standout trend: **mobile unit sales dropped sharply by 27.5%**, falling from **1,946 units in January to 1,411**, the **lowest monthly volume of the year**. Yet, **total revenue held nearly steady at $1.37M**, down just **2.9% from January’s $1.41M**. This anomaly signals a **significant spike in Average Selling Price (ASP)**, which reached **$973.10** — the **highest ASP of the year**.
+
+This trend highlights a **shift toward high-end device purchases**, suggesting that targeted promotions, flagship product launches, or premium customer segments drove revenue despite declining volume.
+
+📊 Supporting Evidence:
+- **January vs February:**
+  - Revenue: $1.41M → $1.37M (▼ 2.9%)
+  - Units Sold: 1,946 → 1,411 (▼ 27.5%)
+  - ASP ↑ to $973.10 — highest of the year
+
+- **Compared to March:**
+  - Revenue fell further to $1.17M (▼ 15.2%)
+  - Units sold: 1,375 (▼ only 2.6%)
+  - Suggests February was uniquely driven by **premium product sales**
+
+- **October also saw a similar ASP-driven pattern:**
+  - Revenue ↑ 32.0% while Units ↓ 13.3%
+  - Another example of revenue growth not tied to higher volume
+
+💡 **Takeaway:**
+**Premium device sales can protect revenue even in low-volume months.** Replicating February’s success may involve:
+- Releasing flagship models in Q1
+- Offering high-margin bundles or loyalty upgrades
+- Segmenting campaigns toward high-ASP demographics
+
+![Mobile-Sales-Analysis](customers_dashboard.jpg)
+Revenue holds strong despite February's unit dip — driven by premium device sales.
+
+![Mobile-Sales-Analysis](customers_dashboard.jpg)
+February's MoM drop in units sold contrasts with minimal revenue decline — ASP peaked at $973.10.
+
+🌍 **Regional Growth Spotlight: Cities Driving Mobile Sales**
+In 2024, mobile growth was largely driven by **urban powerhouses** across **Turkey** and **India**, with **Bursa leading all cities at 1,799 units sold**. Turkish cities dominated the leaderboard, securing **6 of the top 10 spots**, led by **Antalya (1,376)** and **Istanbul (1,345)** — highlighting a strong regional presence and possibly effective localized marketing or distribution strategies.
+
+India also contributed significantly, with **Chennai (1,296)**, **Jaipur (1,237)**, and **Pune (912)** showing impressive sales volumes. This geographic trend signals high market penetration in metros and growing adoption in Tier-2 cities like **Lucknow (839)**.
+
+
+💡 **Takeaway:**
+To sustain growth, the business can:
+- Double down on high-performing Turkish cities with targeted promotions
+- Expand presence in Indian Tier-2 cities, where mobile demand is surging
+- Analyze what’s working in Bursa and replicate those strategies in underperforming cities
+
+![Mobile-Sales-Analysis](customers_dashboard.jpg)
+Bursa leads the charge in mobile sales, with Turkish and Indian cities shaping 2024’s regional growth story.
+
+Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[Visualization specific to category 1]
