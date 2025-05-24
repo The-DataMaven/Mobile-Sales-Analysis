@@ -40,16 +40,24 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 ### Data Structure & Initial Checks
 The company's main database structure, as seen below, consists of one facts table, facts_sales, and 2 dimension tables: dim_products and dim_location, with a total row count of 367 records. A description of each table is as follows:
 
-Facts_Sales: ![Mobile-Sales-Analysis](Facts_Sales.JPG)
-Dim_Products: ![Mobile-Sales-Analysis](dim_products.JPG)
-Dim_Locaton: ![Mobile-Sales-Analysis](dim_locations.JPG)
+#### Facts_Sales: 
+![Mobile-Sales-Analysis](Facts_Sales.JPG)
+
+#### Dim_Products:
+![Mobile-Sales-Analysis](dim_products.JPG)
+
+#### Dim_Locaton: 
+![Mobile-Sales-Analysis](dim_locations.JPG)
 
 I created two more dimension tables: dim_date, for time series analysis, and dim_customers.
 
-Dim_Date: ![Mobile-Sales-Analysis](dim_date.JPG)
-Dim_Customers: ![Mobile-Sales-Analysis](dim_customers.JPG)
+#### Dim_Date:
+![Mobile-Sales-Analysis](dim_date.JPG)
 
-### Entity Relationship Diagram
+#### Dim_Customers: 
+![Mobile-Sales-Analysis](dim_customers.JPG)
+
+#### Entity Relationship Diagram
 ![Mobile-Sales-Analysis](Entity_Relationship_Diagram.JPG)
 
 ## Executive Summary
@@ -60,9 +68,9 @@ In 2024, mobile sales were driven by strong demand for premium Android devices, 
 **Products Dashboard:** ![Mobile-Sales-Analysis](products_dashboard.jpg)
 **Customers Dashboard:** ![Mobile-Sales-Analysis](customers_dashboard.jpg)
 
-### Insights Deep Dive
-## Sales Performance:
-🔍 **Premium Sales Surge in February — Revenue Held Strong Despite Lower Units**
+## Insights Deep Dive
+### Sales Performance:
+#### 🔍Premium Sales Surge in February — Revenue Held Strong Despite Lower Units
 In **February 2024**, the business saw a standout trend: **mobile unit sales dropped sharply by 27.5%**, falling from **1,946 units in January to 1,411**, the **lowest monthly volume of the year**. Yet, **total revenue held nearly steady at $1.37M**, down just **2.9% from January’s $1.41M**. This anomaly signals a **significant spike in Average Selling Price (ASP)**, which reached **$973.10** — the **highest ASP of the year**.
 
 This trend highlights a **shift toward high-end device purchases**, suggesting that targeted promotions, flagship product launches, or premium customer segments drove revenue despite declining volume.
@@ -88,13 +96,15 @@ This trend highlights a **shift toward high-end device purchases**, suggesting t
 - Offering high-margin bundles or loyalty upgrades
 - Segmenting campaigns toward high-ASP demographics
 
-![Mobile-Sales-Analysis](customers_dashboard.jpg)
+![Mobile-Sales-Analysis](monthly_revenue.JPG)
+
 Revenue holds strong despite February's unit dip — driven by premium device sales.
 
-![Mobile-Sales-Analysis](customers_dashboard.jpg)
+![Mobile-Sales-Analysis](MoM_Growth.JPG)
+
 February's MoM drop in units sold contrasts with minimal revenue decline — ASP peaked at $973.10.
 
-🌍 **Regional Growth Spotlight: Cities Driving Mobile Sales**
+#### 🌍Regional Growth Spotlight: Cities Driving Mobile Sales
 In 2024, mobile growth was largely driven by **urban powerhouses** across **Turkey** and **India**, with **Bursa leading all cities at 1,799 units sold**. Turkish cities dominated the leaderboard, securing **6 of the top 10 spots**, led by **Antalya (1,376)** and **Istanbul (1,345)** — highlighting a strong regional presence and possibly effective localized marketing or distribution strategies.
 
 India also contributed significantly, with **Chennai (1,296)**, **Jaipur (1,237)**, and **Pune (912)** showing impressive sales volumes. This geographic trend signals high market penetration in metros and growing adoption in Tier-2 cities like **Lucknow (839)**.
@@ -106,11 +116,8 @@ To sustain growth, the business can:
 - Expand presence in Indian Tier-2 cities, where mobile demand is surging
 - Analyze what’s working in Bursa and replicate those strategies in underperforming cities
 
-![Mobile-Sales-Analysis](customers_dashboard.jpg)
+![Mobile-Sales-Analysis](Top_10_Cities.JPG)
+
 Bursa leads the charge in mobile sales, with Turkish and Indian cities shaping 2024’s regional growth story.
 
-Main insight 3. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-Main insight 4. More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 1]
