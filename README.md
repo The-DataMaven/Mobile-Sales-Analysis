@@ -64,9 +64,8 @@ I created two more dimension tables: dim_date, for time series analysis, and dim
 ### Overview of Findings
 In 2024, mobile sales were driven by strong demand for premium Android devices, with a notable revenue surge in February across key urban markets. Younger age groups, particularly Millennials and Gen Z, showed distinct brand preferences and higher spending power, influencing both product and channel strategies. Online sales outperformed all other channels, highlighting a shift in customer behavior and the growing importance of digital engagement.
 
-**Sales Dashboard:** ![Mobile-Sales-Analysis](sales_dashboard.jpg)
-**Products Dashboard:** ![Mobile-Sales-Analysis](products_dashboard.jpg)
-**Customers Dashboard:** ![Mobile-Sales-Analysis](customers_dashboard.jpg)
+**Dashboard:** ![Mobile-Sales-Analysis](dashboards.png)
+
 
 ## Insights Deep Dive
 ### Sales Performance:
