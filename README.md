@@ -20,7 +20,7 @@ An interactive Tableau dashboard used to report and visualize these findings and
 The company's main database structure as seen below, consists of one facts table, facts_sales, and 2 dimension tables: dim_products and dim_location, with a total row count of 367 records.
 
 #### Entity Relationship Diagram
-![Mobile-Sales-Analysis](Entity_Relationship_Diagram.JPG)
+![Mobile-Sales-Analysis](ERD.png)
 
 Prior to beginning the analysis, a variety of checks were conducted for quality control and farmilarization with the dataset.
 
