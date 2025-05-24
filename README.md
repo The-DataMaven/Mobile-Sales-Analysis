@@ -1,75 +1,45 @@
 # Mobile-Sales-Analysis
 
-### Project Background
-As a data analyst at one of the leading mobile phone retailers in Asia and beyond, I support a fast-paced business that operates across multiple countries and urban centers. Our company has been active in the mobile retail industry for over a decade, building a trusted reputation for offering a wide range of devices — from flagship smartphones to budget-friendly models.
-We operate a hybrid sales model that combines:
-- **Online Sales Platforms**
-- **Physical Retail Stores**
-- **Third-Party Partner Channels**
+## Project Background
+Mobile Sales Dashboard is a data analysis project focused on uncovering key insights from a comprehensive 2024 sales dataset provided by a major mobile phone retailer operating across multiple countries. The company, whose name remains undisclosed, offers mobile phones through various sales channels including in-store purchases, online platforms, and third-party partners.
 
-This multi-channel approach allows us to reach diverse customer segments — from digital-first Gen Z buyers to walk-in customers in urban malls. Our key business metrics include **total revenue**, **units sold**, **average selling price (ASP)**, and **customer retention**.
+The dataset includes detailed records of transactions, customer demographics, product specifications, and geographic data. It captures valuable information such as device models, prices, storage sizes, colors, operating systems, customer age groups and genders, as well as sales channels and payment methods.
 
-In 2024, our goal has been to:
-- **Expand our footprint across high-growth cities**
-- **Improve inventory management by tracking top-selling models**
-- **Refine customer targeting by better understanding buyer demographics and preferences**
-- **Optimize channel performance between online, in-store, and partner sales**
-
-This sales dataset provides a rich opportunity to uncover meaningful patterns, optimize marketing and supply chain efforts, and shape data-informed strategic decisions across the company.
+This project aims to analyze and visualize this data to identify trends, highlight high-performing products, and provide a deeper understanding of customer behavior. The resulting insights are intended to support strategic business decisions related to marketing, inventory management, and regional expansion.
 
 Insights and recommendations are provided on the following key areas:
+- **Sales Trends & Channel Performance:** Examination of sales activity across different channels (online, in-store, partner) and time periods, with a focus on revenue, volume, and seasonal patterns.
+- **Product Performance Analysis:** Assessment of mobile phone models based on price, storage size, color, and operating system to determine the best and worst-performing products.
+- **Customer Behavior Insights:** Analysis of customer demographics, including age group and gender, to uncover purchasing patterns and segment preferences.
+- **Regional Sales Breakdown:** Evaluation of geographic trends to identify top-performing regions and potential markets for growth.
 
-1. Sales Performance
-2. Product Insights
-3. Customer Behaviour
-
-The following business questions were answered:
-- Which mobile brands and models are the top sellers overall and in specific countries or cities?
-- How do sales numbers vary by storage size, color, or operating system (Android vs. iOS)?
-- What is the typical customer profile — age group, gender — for different brands or models?
-- How do sales and revenues break down across different sales channels (online, partner, in-store) and payment types?
-- Are there noticeable differences in pricing and sales volume between regions or cities?
-- Which countries or cities generate the highest total revenue and units sold?
-- Are there patterns in customer demographics based on mobile brand, model, or price range?
-- How does sales performance change month over month in 2024?
-- Are there correlations between customer age groups and the type of devices they purchase (for example, younger customers preferring certain brands)?
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here: 
+An interactive Tableau dashboard used to report and visualize these findings and support data-driven business strategies can be found here: 
 [Mobile Sales Dashboard | 2024](https://public.tableau.com/views/MobileSalesDashboard2024/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ### Data Structure & Initial Checks
-The company's main database structure, as seen below, consists of one facts table, facts_sales, and 2 dimension tables: dim_products and dim_location, with a total row count of 367 records. A description of each table is as follows:
-
-#### Facts_Sales: 
-![Mobile-Sales-Analysis](Facts_Sales.JPG)
-
-#### Dim_Products:
-![Mobile-Sales-Analysis](dim_products.JPG)
-
-#### Dim_Locaton: 
-![Mobile-Sales-Analysis](dim_locations.JPG)
-
-I created two more dimension tables: dim_date, for time series analysis, and dim_customers.
-
-#### Dim_Date:
-![Mobile-Sales-Analysis](dim_date.JPG)
-
-#### Dim_Customers: 
-![Mobile-Sales-Analysis](dim_customers.JPG)
+The company's main database structure as seen below, consists of one facts table, facts_sales, and 2 dimension tables: dim_products and dim_location, with a total row count of 367 records.
 
 #### Entity Relationship Diagram
 ![Mobile-Sales-Analysis](Entity_Relationship_Diagram.JPG)
 
+Prior to beginning the analysis, a variety of checks were conducted for quality control and farmilarization with the dataset.
+
 ## Executive Summary
 ### Overview of Findings
-In 2024, mobile sales were driven by strong demand for premium Android devices, with a notable revenue surge in February across key urban markets. Younger age groups, particularly Millennials and Gen Z, showed distinct brand preferences and higher spending power, influencing both product and channel strategies. Online sales outperformed all other channels, highlighting a shift in customer behavior and the growing importance of digital engagement.
+In 2024, the company’s mobile sales showed mixed performance, with steady overall revenue but notable fluctuations in monthly trends and unit sales. Key performance indicators (KPIs) reflect a competitive market influenced by consumer preference for premium devices and regional growth hotspots.
 
-**Dashboard:** ![Mobile-Sales-Analysis](dashboards.png)
+Total revenue for the year reached $14.5M, with 18,548 units sold at an average selling price (ASP) of $785. While overall performance was stable, a closer look at monthly data reveals critical insights.
 
+Regionally, **India emerged as the top-performing country**, while **Bursa**, **Antalya**, and **Istanbul** led city-level mobile growth, collectively accounting for a significant share of total units sold.
 
-## Insights Deep Dive
+Despite a **-2.9% MoM revenue dip in February**, revenue remained strong due to high-value sales. This trend underscores the importance of targeting premium segments in high-performing regions.
+
+Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](https://public.tableau.com/views/MobileSalesDashboard2024/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+![Mobile-Sales-Analysis](sales_dashboard.jpg)
+
 ### Sales Performance:
-#### 🔍Premium Sales Surge in February — Revenue Held Strong Despite Lower Units
+- 🔍Premium Sales Surge in February — Revenue Held Strong Despite Lower Units
 In **February 2024**, the business saw a standout trend: **mobile unit sales dropped sharply by 27.5%**, falling from **1,946 units in January to 1,411**, the **lowest monthly volume of the year**. Yet, **total revenue held nearly steady at $1.37M**, down just **2.9% from January’s $1.41M**. This anomaly signals a **significant spike in Average Selling Price (ASP)**, which reached **$973.10** — the **highest ASP of the year**.
 
 This trend highlights a **shift toward high-end device purchases**, suggesting that targeted promotions, flagship product launches, or premium customer segments drove revenue despite declining volume.
@@ -103,7 +73,7 @@ Revenue holds strong despite February's unit dip — driven by premium device sa
 
 February's MoM drop in units sold contrasts with minimal revenue decline — ASP peaked at $973.10.
 
-#### 🌍Regional Growth Spotlight: Cities Driving Mobile Sales
+- 🌍Regional Growth Spotlight: Cities Driving Mobile Sales
 In 2024, mobile growth was largely driven by **urban powerhouses** across **Turkey** and **India**, with **Bursa leading all cities at 1,799 units sold**. Turkish cities dominated the leaderboard, securing **6 of the top 10 spots**, led by **Antalya (1,376)** and **Istanbul (1,345)** — highlighting a strong regional presence and possibly effective localized marketing or distribution strategies.
 
 India also contributed significantly, with **Chennai (1,296)**, **Jaipur (1,237)**, and **Pune (912)** showing impressive sales volumes. This geographic trend signals high market penetration in metros and growing adoption in Tier-2 cities like **Lucknow (839)**.
@@ -119,4 +89,5 @@ To sustain growth, the business can:
 
 Bursa leads the charge in mobile sales, with Turkish and Indian cities shaping 2024’s regional growth story.
 
-
+### Product Performance:
+- 
