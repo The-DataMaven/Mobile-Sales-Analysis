@@ -89,12 +89,36 @@ To sustain growth, the business can:
 
 Bursa leads the charge in mobile sales, with Turkish and Indian cities shaping 2024’s regional growth story.
 
+### Sales Channel Performance:
+- The **Online channel peaked in January** with revenue of **$1.001M**, followed by strong performances in **July ($972.8K)** and **October ($932.2K)**.
+- The **Retail Store channel** showed a notable recovery, especially in Q4, climbing steadily from **$202.7K in June** to **$575.9K in December**, indicating growing foot traffic or successful end-of-year promotions.
+- The **Partner channel underperformed**, with revenues declining to a low of **$21.7K in November**, before slightly rebounding in **December to $118.1K**. This highlights a potential need for re-evaluation of partnership strategies or incentives.
+
+![Mobile-Sales-Analysis](Top_10_Cities.JPG)
+
 ### Product Performance:
 - **Over $5.9M in revenue was driven by just five models**, led by the Z Fold 6, Galaxy S25 Ultra, Pixel 9 Pro, OnePlus 12 Pro, and OnePlus 11R. These top performers together account for a significant portion of 2024 sales, highlighting strong consumer interest in high-end Android smartphones.
-
 - Three brands—OnePlus, Apple, and Xiaomi—each sold over 4,000 units, outpacing Samsung and Google by a full 1,000 units. This even split among the top performers highlights a highly competitive landscape, with OnePlus demonstrating strong momentum both in volume and premium model sales.
-
 - In terms of color preferences, **Black dominated Android sales**, contributing to over **3,500 units sold**, while **White led iOS preferences with 1,066 units sold** — nearly double the iOS count for Black. Blue also performed well across both systems, especially for iOS.
 
 ![Mobile-Sales-Analysis](Top_10_Cities.JPG)
 
+### Customer Behavior:
+**- Gender-Based Insights:**
+  - Females drive the majority of sales volume (50%) with an average spend of $767.
+  - Males have a higher average spend ($811), contributing to 42% of total sales.
+  - Others contribute 8% to sales, with an average spend of $771.
+**- Brand Preferences:**
+  - Females prefer **Google**, **Samsung**, and **Xiaomi**.
+  - Males favor **Apple** and **OnePlus**, especially OnePlus.
+
+**- Age Group Preferences:**
+  - **OnePlus** is extremely popular among **26–33-year-olds**, with **1,146 units sold**.
+  - Apple dominates among younger groups, especially 18–33-year-olds.
+  - Samsung and Xiaomi are more popular among middle-aged and older groups (34–65).
+  - Google shows steady but moderate popularity across all age groups
+- **OS Preference Trends:**
+  - iOS (Apple) is preferred by younger users (18–33).
+  - Android dominates among older age groups (34–65), indicating a generational divide in OS loyalty.
+ 
+![Mobile-Sales-Analysis](Top_10_Cities.JPG)
