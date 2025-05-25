@@ -90,4 +90,11 @@ To sustain growth, the business can:
 Bursa leads the charge in mobile sales, with Turkish and Indian cities shaping 2024’s regional growth story.
 
 ### Product Performance:
-- 
+- **Over $5.9M in revenue was driven by just five models**, led by the Z Fold 6, Galaxy S25 Ultra, Pixel 9 Pro, OnePlus 12 Pro, and OnePlus 11R. These top performers together account for a significant portion of 2024 sales, highlighting strong consumer interest in high-end Android smartphones.
+
+- Three brands—OnePlus, Apple, and Xiaomi—each sold over 4,000 units, outpacing Samsung and Google by a full 1,000 units. This even split among the top performers highlights a highly competitive landscape, with OnePlus demonstrating strong momentum both in volume and premium model sales.
+
+- In terms of color preferences, **Black dominated Android sales**, contributing to over **3,500 units sold**, while **White led iOS preferences with 1,066 units sold** — nearly double the iOS count for Black. Blue also performed well across both systems, especially for iOS.
+
+![Mobile-Sales-Analysis](Top_10_Cities.JPG)
+
