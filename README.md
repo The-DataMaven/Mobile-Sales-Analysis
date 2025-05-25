@@ -1,14 +1,14 @@
-# Mobile-Sales-Analysis
+# Mobile Sales Analysis
 
 ## Project Background
-Mobile Sales Dashboard is a data analysis project focused on uncovering key insights from a comprehensive 2024 sales dataset provided by a major mobile phone retailer operating across multiple countries. The company, whose name remains undisclosed, offers mobile phones through various sales channels including in-store purchases, online platforms, and third-party partners.
+Mobile Sales Analysis is a data analysis project focused on uncovering key insights from a comprehensive 2024 sales dataset provided by a major mobile phone retailer operating across multiple countries. The company, whose name remains undisclosed, offers mobile phones through various sales channels including in-store purchases, online platforms, and third-party partners.
 
 The dataset includes detailed records of transactions, customer demographics, product specifications, and geographic data. It captures valuable information such as device models, prices, storage sizes, colors, operating systems, customer age groups and genders, as well as sales channels and payment methods.
 
 This project aims to analyze and visualize this data to identify trends, highlight high-performing products, and provide a deeper understanding of customer behavior. The resulting insights are intended to support strategic business decisions related to marketing, inventory management, and regional expansion.
 
 Insights and recommendations are provided on the following key areas:
-- **Sales Trends & Channel Performance:** Examination of sales activity across different channels (online, retail store, partner) and time periods, with a focus on revenue, volume, and seasonal patterns.
+- **Sales Trends & Channel Performance:** Examination of sales activity across different channels (online, in-store, partner) and time periods, with a focus on revenue, volume, and seasonal patterns.
 - **Product Performance Analysis:** Assessment of mobile phone models based on price, storage size, color, and operating system to determine the best-performing products.
 - **Customer Behavior Insights:** Analysis of customer demographics, including age group and gender, to uncover purchasing patterns and segment preferences.
 - **Regional Sales Breakdown:** Evaluation of geographic trends to identify top-performing regions and potential markets for growth.
@@ -23,12 +23,13 @@ The company's main database structure as seen below, consists of one facts table
 ![Mobile-Sales-Analysis](images/ERD.png)
 
 Prior to beginning the analysis, a variety of checks were conducted for quality control and farmilarization with the dataset. To support time-based analysis across multiple visualizations, a **dim_date** table was created using **Excel** and joined with the facts data.
+
 **Purpose:**
  - Enables month, quarter, and year breakdowns.
  - Facilitates trend analysis and time-based comparisons.
  - Supports cleaner date filtering and grouping in Power BI/Tableau.
    
-✅A relationship was created with the facts_sales data on the **date** field for all time-series visualizations and trend analysis.
+A relationship was created with the facts_sales data on the **date** field for all time-series visualizations and trend analysis.
 
 ## Executive Summary
 ### Overview of Findings
@@ -101,7 +102,7 @@ February's MoM drop in units sold contrasts with minimal revenue decline — ASP
  
 ![Mobile-Sales-Analysis](images/Gender.JPG) ![Mobile-Sales-Analysis](images/preference.JPG)
 
-### 🌍Regional Performance: Cities Driving Mobile Sales
+### Regional Performance: Cities Driving Mobile Sales
 - **Bursa**, Turkey led all cities with **1,799 units sold** — the top-performing city in 2024.
 - **Turkish cities dominated** the leaderboard with **6 of the top 10 spots**, including:
    - Antalya – 1,376 units
@@ -118,7 +119,8 @@ February's MoM drop in units sold contrasts with minimal revenue decline — ASP
 
 
 ## Recommendations
-1. **Premium device sales can protect revenue even in low-volume months.** Replicating February’s success may involve:
+1. **Premium device sales can protect revenue even in low-volume months.**
+- Replicating February’s success may involve:
   - Releasing flagship models in Q1
   - Offering high-margin bundles or loyalty upgrades
   - Segmenting campaigns toward high-ASP demographics
